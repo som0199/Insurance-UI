@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}.main-container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(136, 136, 143);
+}
+.container{
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding-inline: 140px;
+    padding-block: 15px;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+   color: black;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+    
+    
+}
+.navbar p{
+    /* font-weight: bold; */
+    font-size: 15px;
+}
+.navbar span button{
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+#btn{
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+}
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
+    
+
+}
+.content h1{
+    font-size: 40px;
+}
+.content span input{
+width: 270px;
+height: 40px;
+border-radius: 20px;
+padding: 20px;
+}
+.content span button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.box-heading{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+
+}
+.box-template{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 10px;
+    /* background-color: aquamarine; */
+}
+.box{
+    width: 100%;
+    height: auto;
+    /* font-weight: normal; */
+    font-size: 50px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 23px;
+    
+    margin-block: 10px;
+    font-size: 13px;
+    
+}
+.box h6{
+    color: rgb(112, 108, 108);
+}
+.box:first-child{
+    background-color: rgb(72, 215, 167);
+    margin-right: 18px;
+}
+.box:nth-child(2){
+    background-color: rgb(18, 11, 11);
+    color: white;
+    margin-right: 18px;
+}
+.box:nth-child(3){
+    background-color: rgb(194, 146, 238);
+    margin-right: 18px;
+}
+.box:last-child{
+    background-color: rgb(254, 254, 126);
+    
+}
+#child{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#child button{
+    width: 27px;
+    height: 25px;
+    /* color: white; */
+    background-color: rgb(212, 211, 211);
+    border-radius: 7px;
+    border: hidden;
+}
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer button{
+    width: 45px;
+    height: 35px;
+    border-radius: 46%;
+    border: 1px solid rgb(100, 99, 99);
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+
+    .container{
+        width: 100%;
+        height: auto;
+        padding-inline: 40px ;
+    }
+
+    .navbar{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar p{
+        font-size: 18px;
+        
+    }
+    .navbar ul{
+        display: none;
+    }
+    .content{
+        width: 100%;
+        height: auto;
+
+    }
+    .content h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .content p{
+        text-align: center;
+    }
+    .content span{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .content span button{
+        margin-top: 15px;
+    }
+    .box-heading{
+        width: 100%;
+        height: auto;
+    }
+    .box-heading h2{
+        font-size: 22px;
+    }
+    .box-template{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+        font-size: 13px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
